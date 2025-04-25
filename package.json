@@ -5,11 +5,23 @@
   "description": "Encore Typescript Starter",
   "license": "MPL-2.0",
   "type": "module",
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "studio": "drizzle-kit studio"
+  },
   "devDependencies": {
     "@types/node": "^20.5.7",
+    "@types/pg": "^8.11.14",
+    "drizzle-kit": "^0.31.0",
+    "tsx": "^4.19.3",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "encore.dev": "^1.46.20"
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.43.1",
+    "encore.dev": "^1.46.20",
+    "pg": "^8.15.5",
+    "pg-connection-string": "^2.7.0"
   }
 }
